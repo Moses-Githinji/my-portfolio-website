@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "I completed the course after a few months of studying. I immediately got a job as a web developer <WordPress> for Kiambu Water & Sanitation Company.",
     icon: React.createElement(LuGraduationCap),
-    date: "2021",
+    date: "Jan 2022 - September 2022",
   },
   {
     title: "Front-End Developer",
