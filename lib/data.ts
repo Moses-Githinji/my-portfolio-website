@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "YouTube Bootcamp",
     location: "Nairobi, KE(Virtual)",
     description:
-      "I completed the course after a few months of studying. I immediately found a job as a web developer WordPress.",
+      "I completed the course after a few months of studying. I immediately got a job as a web developer <WordPress> for Kiambu Water & Sanitation Company.",
     icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
