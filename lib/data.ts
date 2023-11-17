@@ -38,9 +38,9 @@ export const experiencesData = [
     title: "YouTube Bootcamp",
     location: "Nairobi, KE(Virtual)",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a web developer WordPress.",
+      "I completed the course after a fews months of studying. I immediately found a job as a web developer WordPress.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
     title: "Front-End Developer",
@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       "I worked on improving my software development skills..",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2023",
   },
   {
     title: "Full-Stack Developer",
@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "August 2023 - present",
   },
 ] as const;
 
