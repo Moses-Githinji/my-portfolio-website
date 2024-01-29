@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/mechlocator.png";
 import rmtdevImg from "@/public/kejayangu.png";
 import wordanalyticsImg from "@/public/mechlocator_admin.png";
+import crmdashImg from "@/public/home-page-view.png";
 
 export const links = [
   {
@@ -45,8 +46,7 @@ export const experiencesData = [
   {
     title: "Front-End Developer",
     location: "Nyeri, KE",
-    description:
-      "I worked on improving my software development skills..",
+    description: "I worked on improving my software development skills..",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },
@@ -66,6 +66,7 @@ export const projectsData = [
     description:
       "I have been working as the core app developer for this app. Mechanic Locator is about connecting motorists with reputable and certified garages and mechanics in the country.",
     tags: ["React Naitve", "MongoDB", "Google Maps"],
+    link: "",
     imageUrl: corpcommentImg,
   },
   {
@@ -73,14 +74,24 @@ export const projectsData = [
     description:
       "This is a real estate website application built with the aim of helping people find suitable rentals of real estate for purchase.",
     tags: ["React", "TypeScript", "Next.js", "MongoDB"],
+    link: "",
     imageUrl: rmtdevImg,
   },
   {
     title: "Mechanic Locator Admin Panel",
     description:
       "An admin board to track the performance of the Mechanic Locator app.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Framer"],
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
+    link: "",
     imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Refine.dev CRM",
+    description:
+      "A CRM dashboard with upcoming events, chart showing company's wins and losses, a kanban tasks CRUD view for managing tasks.",
+    tags: ["React", "Next.js", "Refine.dev", "Ant Design"],
+    link: "https://admin-board-psi.vercel.app/",
+    imageUrl: crmdashImg,
   },
 ] as const;
 
