@@ -44,7 +44,7 @@ export default function About() {
         <span className="font-medium">
           CyberSecurity, Network Penetration Tests and Ethical Hacking
         </span>
-        . I'm also aspiring to be a certified pilot next year, hopefully!!👊.
+        . I'm also aspiring to be a certified pilot soon, hopefully!!👊.
       </p>
     </motion.section>
   );
